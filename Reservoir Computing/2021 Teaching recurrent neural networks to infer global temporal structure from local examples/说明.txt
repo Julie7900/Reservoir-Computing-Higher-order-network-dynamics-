@@ -1,0 +1,1 @@
+RC_reconstructing_bifurcation.py文件尚未完成，仅仅完善了储备池类的建立，相比于前面2019那篇的代码编程更规范，核心思想没变

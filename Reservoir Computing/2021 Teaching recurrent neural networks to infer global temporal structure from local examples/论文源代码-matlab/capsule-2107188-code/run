@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -ex
+
+# This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
+matlab -nodisplay -r "addpath('../data'); fig_intro; fig_translate_transform; fig_bifurcate_period_double; fig_differential; fig_tanh_SN_SP_mech; fig_flight; supp_fig_differential; supp_fig_attractor_similarity; supp_fig_wc_translate; supp_fig_wc_transform; supp_fig_wc_bifurcate; supp_fig_translate_multi; supp_fig_transform_multi;"
